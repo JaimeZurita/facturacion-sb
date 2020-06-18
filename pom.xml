@@ -11,7 +11,7 @@
 	<groupId>cast.testapp</groupId>
 	<artifactId>facturacion-sb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>facturacion-sb</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -44,6 +44,12 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<!-- Cast Dependencies -->
+		<dependency>
+			<groupId>cast.testapp</groupId>
+			<artifactId>facturacion</artifactId>
+			<version>1.0.3-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
